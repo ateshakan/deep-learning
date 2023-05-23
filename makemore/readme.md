@@ -15,7 +15,7 @@ Introduced the bigram character-level language model and explored various aspect
 
 In the first approach, we computed the frequencies of all the bigrams and performed normalization. On the other hand, the second approach utilized the negative log likelihood loss as a guide to optimize the counts matrix or counts array, minimizing the loss within a gradient-based framework. Remarkably, both methods produced identical results.
 
-It is worth noting that the gradient-based framework offers greater flexibility. Currently, our neural network is quite basic, involving a single previous character input passed through a single linear layer to compute the logits. However, this framework allows for future expansion and enhancement of the neural network architecture to tackle more complex tasks.
+It is worth noting that the gradient-based framework offers greater flexibility. Currently, our neural network is quite basic, involving a single previous character input passed through a single linear layer to compute the logits. However, this framework allows for future expansion and enhancement of the neural network architecture to tackle more complex tasks. 
 
 ## References
 
