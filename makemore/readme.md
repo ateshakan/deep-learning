@@ -11,6 +11,12 @@ A bigram language model focuses on predicting the next character in a sequence b
 
 The model's simplicity lies in its limited scope, as it only looks at the previous character to make predictions. This approach neglects the broader context and dependencies present in language. Therefore, it can be considered a weak language model.
 
+Introduced the bigram character-level language model and explored various aspects such as model training, sampling, and evaluating model quality using negative log likelihood loss. Additionally, we trained the model using two distinct approaches that ultimately yielded the same outcome.
+
+In the first approach, we computed the frequencies of all the bigrams and performed normalization. On the other hand, the second approach utilized the negative log likelihood loss as a guide to optimize the counts matrix or counts array, minimizing the loss within a gradient-based framework. Remarkably, both methods produced identical results.
+
+It is worth noting that the gradient-based framework offers greater flexibility. Currently, our neural network is quite basic, involving a single previous character input passed through a single linear layer to compute the logits. However, this framework allows for future expansion and enhancement of the neural network architecture to tackle more complex tasks.
+
 ## References
 
 Inspiration, code snippets, etc.
@@ -19,4 +25,9 @@ Inspiration, code snippets, etc.
 ## makemore github repo:
 * [micrograd](https://github.com/karpathy/makemore)
 
+* [Bigram Wiki](https://en.wikipedia.org/wiki/Bigram)
+
+* [One-hot Encoding](https://en.wikipedia.org/wiki/One-hot)
+
 ### [Pytorch](https://pytorch.org/)
+
