@@ -17,6 +17,7 @@ In the first approach, we computed the frequencies of all the bigrams and perfor
 
 It is worth noting that the gradient-based framework offers greater flexibility. Currently, our neural network is quite basic, involving a single previous character input passed through a single linear layer to compute the logits. However, this framework allows for future expansion and enhancement of the neural network architecture to tackle more complex tasks. 
 
+
 ## References
 
 Inspiration, code snippets, etc.
