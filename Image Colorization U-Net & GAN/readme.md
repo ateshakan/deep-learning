@@ -1,4 +1,6 @@
-# Image Colorization Colorization with conditional GANs
+# Image Colorization * 
+## [Link to the rendered project file](https://nbviewer.org/github/ateshakan/deep-learning/blob/main/Image%20Colorization%20U-Net%20%26%20GAN/colorization.ipynb) 
+
 
 Image colorization refers to the process of adding
 color to grayscale or black and white images. This is an
@@ -253,4 +255,3 @@ Inspiration, code snippets, etc.
 
 ## dasd:
 * []()
-
